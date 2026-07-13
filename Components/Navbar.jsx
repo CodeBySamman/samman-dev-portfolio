@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { HiMenu, HiX } from "react-icons/hi";
-
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -55,14 +54,14 @@ export default function Navbar() {
           </ul>
 
           {/* Resume Button */}
-          <a
+          <Link
             href="/projects/Resume_13_07_2026_03_31_17_PM (1).pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-yellow-400 text-black px-5 py-2 rounded-lg font-semibold hover:scale-105 transition"
           >
             Resume
-          </a>
+          </Link>
 
           {/* Mobile Menu Button */}
           <button
@@ -115,13 +114,14 @@ export default function Navbar() {
               </li>
 
               <li>
-                <a
-                  href="/resume.pdf"
-                  target="_blank"
-                  className="bg-yellow-400 text-black py-2 rounded-lg font-semibold"
+                <Link
+              href="/projects/Resume_13_07_2026_03_31_17_PM (1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+                  className="bg-yellow-400 px-5 text-black py-2 rounded-lg font-semibold"
                 >
-                  Download Resume
-                </a>
+               Resume
+                </Link>
               </li>
 
             </ul>
