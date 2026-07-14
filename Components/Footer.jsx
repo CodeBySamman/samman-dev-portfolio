@@ -30,39 +30,39 @@ export default function Footer() {
 
             <ul className="space-y-3 text-slate-400">
               <li>
-                <Link
-                  href="/about"
+                <a
+                  href="#about"
                   className="hover:text-yellow-400 transition"
                 >
                   About
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link
-                  href="/skill"
+                <a
+                  href="#skills"
                   className="hover:text-yellow-400 transition"
                 >
                   Skills
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link
-                  href="/project"
+                <a
+                  href="#projects"
                   className="hover:text-yellow-400 transition"
                 >
                   Projects
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link
-                  href="/contact"
+                <a
+                  href="#contact"
                   className="hover:text-yellow-400 transition"
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

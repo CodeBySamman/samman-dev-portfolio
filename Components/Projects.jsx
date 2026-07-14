@@ -43,7 +43,7 @@ export default function Projects() {
         >
 
           {/* Project Image */}
-         <div className="h-72 bg-slate-200 overflow-hidden">
+         <div className="h-52 sm:h-72 bg-slate-200 overflow-hidden">
   <img
     src={project.image}
     alt={project.title}
