@@ -33,24 +33,14 @@ export default function About() {
                 Samman Shaehzadi {""}
               </span>
 
-                    a Full Stack Developer with a strong interest in backend engineering and modern web technologies. I enjoy transforming ideas into real-world applications that are secure, scalable, and easy to use.
+                    a Full Stack Developer specializing in Next.js, React, Node.js, Express.js, and MongoDB. I enjoy building secure, scalable, and user-friendly web applications with a strong focus on backend development.
             </p>
 
             <p className="text-slate-600 leading-8 text-base lg:text-lg mt-5">
-             Over the past year, I have worked on multiple full-stack projects ranging from business platforms and e-commerce solutions to creator-support applications and productivity tools. These projects have strengthened my understanding of application architecture, authentication workflows, database management, API development, and deployment processes.
+            Over the past year, I have developed e-commerce platforms, creator-support applications, business dashboards, and productivity tools. Through these projects, I have gained practical experience in authentication, REST APIs, database design, payment integration, deployment, and modern web development.
             </p>
-<p>I enjoy solving complex technical challenges, improving application performance, and creating systems that deliver a smooth experience for users. My goal is to build reliable software that not only works efficiently but also provides long-term value.</p>
             <p className="text-slate-600 leading-8 text-base lg:text-lg mt-5">
-              Through projects such as
-              <span className="font-semibold text-indigo-600"> E-Commerce Platform</span>,
-              <span className="font-semibold text-indigo-600"> GetMeAChai</span>,
-              <span className="font-semibold text-indigo-600"> Business Insights</span>,
-              <span className="font-semibold text-indigo-600"> News_App</span>,
-              and
-              <span className="font-semibold text-indigo-600"> Cloud Notes</span>,
-              I have gained hands-on experience in full-stack development, secure
-              authentication workflows, database-driven applications, payment
-              processing systems, and production-ready deployments.
+            My notable projects include Ovilo Store, GetMeAChai, Business Insights, and Cloud Notes, where I implemented secure authentication, REST APIs, database management, payment integration, and production-ready deployment.
             </p>
           </div>
 
@@ -60,17 +50,16 @@ export default function About() {
               Highlights
             </h3>
             <ul className="space-y-4 text-slate-700 text-sm sm:text-base lg:text-lg">
-              <li>✓ Secure Authentication Systems</li>
-              <li>✓ REST API Development</li>
-              <li>✓ JWT & NextAuth Authentication</li>
-              <li>✓ Google Login Integration</li>
-              <li>✓ Password Security with bcrypt</li>
-              <li>✓ MongoDB Database Management</li>
-              <li>✓ Payment Gateway Integration</li>
-              <li>✓ Backend Development with Node.js & Express & Next.js</li>
-              <li>✓ Next.js Server Actions & Backend Logic</li>
-              <li>✓ Git & GitHub Workflow</li>
               <li>✓ Full Stack Web Development</li>
+              <li>✓ Next.js & React</li>
+              <li>✓ Node.js & Express</li>
+              <li>✓ MongoDB</li>
+              <li>✓ REST APIs</li>
+              <li>✓ JWT & NextAuth</li>
+              <li>✓ Google OAuth</li>
+              <li>✓ Payment Integration</li>
+              
+              
             </ul>
           </div>
 

@@ -58,7 +58,7 @@ export default function Skills() {
           </h2>
 
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-  A collection of technologies and tools I use to build responsive user interfaces, scalable backend systems, secure authentication flows, and production-ready web applications.
+            A collection of technologies and tools I use to build responsive user interfaces, scalable backend systems, secure authentication flows, and production-ready web applications.
           </p>
         </div>
 
@@ -100,13 +100,14 @@ export default function Skills() {
         <div className="mt-14 lg:mt-20 bg-slate-900 rounded-3xl p-8 md:p-10 text-center text-white">
 
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
-             Building Real-World Full Stack Solutions
+            Building Real-World Full Stack Solutions
           </h3>
 
           <p className="max-w-3xl mx-auto text-slate-300 leading-8">
-        I continuously improve my skills by building practical projects and exploring modern development practices. My experience includes frontend development, backend architecture, database design, authentication systems, API integration, deployment workflows, and performance optimization.
+            I build full-stack applications using Next.js, React, Node.js, Express, and MongoDB,
+            with hands-on experience in authentication, REST APIs, database design,
+            payment integration, and deployment.
           </p>
-
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
 
             <div>

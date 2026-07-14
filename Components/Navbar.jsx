@@ -12,42 +12,42 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link
-            href="/"
+          <a
+            href="#home"
             className="text-xl font-bold tracking-wide"
           >
             Samman
             <span className="text-yellow-400">.dev</span>
-          </Link>
+          </a>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center gap-8 font-medium">
             <li>
-              <a href="/" className="hover:text-yellow-400 transition">
+              <a href="#home" className="hover:text-yellow-400 transition">
                 Home
               </a>
             </li>
 
             <li>
-              <a href="/about" className="hover:text-yellow-400 transition">
+              <a href="#about" className="hover:text-yellow-400 transition">
                 About
               </a>
             </li>
 
             <li>
-              <a href="/skill" className="hover:text-yellow-400 transition">
+              <a href="#skills" className="hover:text-yellow-400 transition">
                 Skills
               </a>
             </li>
 
             <li>
-              <a href="/project" className="hover:text-yellow-400 transition">
+              <a href="#projects" className="hover:text-yellow-400 transition">
                 Projects
               </a>
             </li>
 
             <li>
-              <a href="/contact" className="hover:text-yellow-400 transition">
+              <a href="#contact" className="hover:text-yellow-400 transition">
                 Contact
               </a>
             </li>
@@ -77,9 +77,18 @@ export default function Navbar() {
           <div className="md:hidden py-5 border-t border-slate-800">
             <ul className="flex flex-col gap-5 text-center font-medium">
 
+
               <li>
                 <a
-                  href="/about"
+                  href="#home"
+                  onClick={() => setMenuOpen(false)}
+                >
+                 Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
                   onClick={() => setMenuOpen(false)}
                 >
                   About
@@ -88,7 +97,7 @@ export default function Navbar() {
 
               <li>
                 <a
-                  href="/skill"
+                  href="#skills"
                   onClick={() => setMenuOpen(false)}
                 >
                   Skills
@@ -97,7 +106,7 @@ export default function Navbar() {
 
               <li>
                 <a
-                  href="/project"
+                  href="#projects"
                   onClick={() => setMenuOpen(false)}
                 >
                   Projects
@@ -106,7 +115,7 @@ export default function Navbar() {
 
               <li>
                 <a
-                  href="/contact"
+                  href="#contact"
                   onClick={() => setMenuOpen(false)}
                 >
                   Contact
