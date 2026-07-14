@@ -31,7 +31,7 @@ const Home = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
           <a
-            href="/project"
+            href="#projects"
             className="w-full sm:w-auto bg-yellow-400 text-black px-8 py-3 rounded-xl font-semibold hover:scale-105 transition duration-300"
           >
             View Projects

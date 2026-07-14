@@ -113,8 +113,8 @@ export default function Footer() {
           </p>
 
           {/* Back To Top */}
-          <a
-            href="#"
+          <Link
+           href="/"
             className="
               flex items-center gap-2
               bg-yellow-400
@@ -127,8 +127,9 @@ export default function Footer() {
             "
           >
             <FaArrowUp />
-            Top
-          </a>
+          
+   Back Home
+          </Link>
 
         </div>
 

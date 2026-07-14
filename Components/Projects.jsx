@@ -1,54 +1,7 @@
-"use client"
-const projects = [
+"use client";
+import React from 'react';
 
-{
-  title: "Ovilo Store",
-  image: "/projects/ovi.png",
-  description:
-    "A full-stack e-commerce platform built with Next.js and MongoDB featuring secure authentication, role-based admin access, comprehensive admin dashboard, cart, product and category management, order processing, customer management, homepage content control, server-side operations, and scalable database architecture.",
-  stack: ["Next.js", "MongoDB", "NextAuth","Google Login"],
-  features: [
-    "Admin Dashboard",
-    "Product Management",
-    "Order Management",
-    "Category Control",
-    "Cart Management"
-  ],
-  github: "https://github.com/CodeBySamman",
-  live: "https://ovilo-ecommerce-platform.vercel.app",
-},
- {
-    title: "GetMeAChai",
-    image: "/projects/chiweeb.png",
-    description:
-      "A full-stack creator support platform developed with Next.js and MongoDB, featuring Google authentication with NextAuth, secure user management, server-side data handling, dynamic payment support workflow, and optimized backend operations.",
-    stack: ["Next.js", "MongoDB", "Tailwind CSS"],
-    features: ["NextAuth", "Google Login", "Server Actions", "Payment Getway"],
-    github: "https://github.com/CodeBySamman",
-    live: "https://getmeachai-nextjs.vercel.app",
-  },
- {
-    title: "Business Insights",
-    image: "/projects/blogs.png",
-    description:
-      "A full-stack business analytics platform built with MERN Stack featuring JWT authentication, role-based protected routes, secure password hashing with bcrypt, input validation, RESTful APIs, MongoDB data management, and scalable backend architecture for business data processing.",
-    stack: ["MongoDB", "Express", "React", "Node.js"],
-    features: ["JWT", "bcrypt", "Validation", "REST APIs"],
-    github: "https://github.com/CodeBySamman",
-    live: "https://bloginsights-fullstack-fdj4.vercel.app",
-  },
-
-  {
-    title: "Cloud Notes",
-    image: "/projects/nots.png",
-    description:
-      "A secure MERN-based note management application with JWT authentication, password encryption using bcrypt, protected API routes, complete CRUD operations, MongoDB integration, middleware-based authorization, and efficient user-specific data handling.",
-    stack: ["MongoDB", "Express", "React", "Node.js"],
-    features: ["JWT", "bcrypt", "Authentication", "CRUD"],
-    github: "https://github.com/CodeBySamman",
-    live: "https://cloudnotes-fullstack-mern-i3t2cp3q1-codebysammans-projects.vercel.app/",
-  },
-];
+import projects from '@/data/projects';
 
 export default function Projects() {
   return (
@@ -90,7 +43,7 @@ export default function Projects() {
         >
 
           {/* Project Image */}
-         <div className="h-62 sm:h-72 bg-slate-200 overflow-hidden">
+         <div className="h-72 bg-slate-200 overflow-hidden">
   <img
     src={project.image}
     alt={project.title}
@@ -168,9 +121,7 @@ export default function Projects() {
               </a>
 
               <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`/projects/${project.slug}`}
                 className="
                   border border-slate-300
                   px-5 py-3
@@ -181,7 +132,7 @@ export default function Projects() {
                   transition
                 "
               >
-                GitHub
+                View Details
               </a>
 
             </div>
@@ -195,3 +146,5 @@ export default function Projects() {
 </section>
   );
 }
+
+
