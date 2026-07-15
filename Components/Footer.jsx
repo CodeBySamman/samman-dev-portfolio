@@ -88,7 +88,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/samman-shaehzadi-89934b422"
                 target="_blank"
                 rel="noreferrer"
                 className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-900 border border-slate-700 hover:border-yellow-400 hover:text-yellow-400 transition"

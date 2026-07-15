@@ -58,7 +58,7 @@ export default function Contact() {
             </h3>
 
             <p className="text-slate-400 mt-2">
-             ...
+            https://www.linkedin.com/in/samman-shaehzadi-89934b422
             </p>
           </div>
 
