@@ -38,7 +38,7 @@ const Home = () => {
           </a>
 
           <a
-            href="/projects/Resume_13_07_2026_03_31_17_PM (1).pdf"
+            href="/projects/Resume_15_07_2026_10_36_04_AM.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto border border-slate-600 px-8 py-3 rounded-xl font-semibold hover:bg-slate-800 transition duration-300"
@@ -80,7 +80,7 @@ const Home = () => {
         </div>
       </div>
     </section>
-  );
+  
     </div>
   );
 }
