@@ -13,7 +13,7 @@ export default async function ProjectDetails({ params }) {
     return (
       <h1 className="text-center mt-20 text-3xl font-bold">
         Not Found
-      </h1>
+      </h1> 
     );
   }
 
