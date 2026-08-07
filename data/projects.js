@@ -139,7 +139,7 @@ const projects = [
 },
 {
   title: "Live Streaming",
-  image: "/projects/live1.jpg",
+  image: "/projects/live.png",
   description:
     "A real-time video calling application built with React.js, powered by the ZegoCloud UIKit for seamless one-on-one video communication. Users can instantly create or join private rooms via unique room IDs, with shareable links for quick access, dynamic routing, and clean input validation for a smooth user experience.",
   stack: ["React", "Vite", "React Router DOM", "ZegoCloud UIKit", "Tailwind CSS"],
