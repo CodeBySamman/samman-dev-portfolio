@@ -48,36 +48,36 @@ const Home = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6  mt-16 max-w-3xl mx-auto">
-          <div className="bg-slate-900 rounded-2xl p-6">
-            <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
-              30+
-            </h3>
-            <p className="text-slate-400 mt-2">Projects Built</p>
-          </div>
-          <div className="bg-slate-900 rounded-2xl p-6">
-            <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
-              MERN
-            </h3>
-            <p className="text-slate-400 mt-2">Stack Specialist</p>
-          </div>
+        {/* Stats */}
+<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto">
+  <div className="bg-slate-900 rounded-2xl p-6 text-center">
+    <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
+      30+
+    </h3>
+    <p className="text-slate-400 mt-2">Projects Built</p>
+  </div>
+  <div className="bg-slate-900 rounded-2xl p-6 text-center">
+    <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
+      MERN
+    </h3>
+    <p className="text-slate-400 mt-2">Stack Specialist</p>
+  </div>
 
-          <div className="bg-slate-900 rounded-2xl p-6">
-            <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
-              Next.js
-            </h3>
-            <p className="text-slate-400 mt-2">Applications</p>
-          </div>
+  <div className="bg-slate-900 rounded-2xl p-6 text-center">
+    <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
+      Next.js
+    </h3>
+    <p className="text-slate-400 mt-2">Applications</p>
+  </div>
 
-          <div className="bg-slate-900 rounded-2xl p-6">
-            <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
-              1+
-            </h3>
-            <p className="text-slate-400 mt-2">Year Experience</p>
-          </div>
-
-        
-        </div>
+  <div className="bg-slate-900 rounded-2xl p-6 text-center">
+    <h3 className="text-3xl md:text-4xl font-bold text-yellow-400">
+      1+
+    </h3>
+    <p className="text-slate-400 mt-2">Year Experience</p>
+  </div>
+</div>
+       
       </div>
     </section>
   
