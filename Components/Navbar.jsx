@@ -55,7 +55,7 @@ export default function Navbar() {
 
           {/* Resume Button */}
           <Link
-              href="/projects/Resume_05_08_2026_06_50_29_PM.pdf"
+              href="/projects/Resume_13_08_2026_11_48_09_PM.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-yellow-400 text-black px-5 py-2 rounded-lg font-semibold hover:scale-105 transition"
@@ -124,7 +124,7 @@ export default function Navbar() {
 
               <li>
                 <Link
-               href="/projects/Resume_05_08_2026_06_50_29_PM.pdf"
+               href="/projects/Resume_13_08_2026_11_48_09_PM.pdf"
             target="_blank"
             rel="noopener noreferrer"
                   className="bg-yellow-400 px-5 text-black py-2 rounded-lg font-semibold"
