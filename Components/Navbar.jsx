@@ -55,7 +55,7 @@ export default function Navbar() {
 
           {/* Resume Button */}
           <Link
-              href="/projects/Samman_Shaehzadi_Resume.docx"
+              href="/projects/Samman_Shaehzadi_Resume (1).pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-yellow-400 text-black px-5 py-2 rounded-lg font-semibold hover:scale-105 transition"
@@ -124,7 +124,7 @@ export default function Navbar() {
 
               <li>
                 <Link
-               href="/projects/Samman_Shaehzadi_Resume.docx"
+               href="/projects/Samman_Shaehzadi_Resume (1).pdf"
             target="_blank"
             rel="noopener noreferrer"
                   className="bg-yellow-400 px-5 text-black py-2 rounded-lg font-semibold"
