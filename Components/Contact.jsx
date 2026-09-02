@@ -67,7 +67,7 @@ export default function Contact() {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="mailto:saman@example.com"
+            href="shezadii783@gmail.com"
             className="inline-block bg-yellow-400 text-black px-8 py-3 rounded-xl font-semibold hover:scale-105 transition"
           >
             Let's Connect

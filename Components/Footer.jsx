@@ -18,7 +18,7 @@ export default function Footer() {
             </h2>
 
             <p className="mt-4 text-slate-400 leading-7 text-sm">
-    Full Stack Developer focused on building secure, scalable, and user-friendly web applications with modern technologies.
+              Full Stack Developer focused on building secure, scalable, and user-friendly web applications with modern technologies.
             </p>
           </div>
 
@@ -70,13 +70,13 @@ export default function Footer() {
           {/* Social Links */}
           <div>
             <div>
-            <h3 className="text-xl font-semibold mb-2">
-              Connect With Me
-            </h3>
+              <h3 className="text-xl font-semibold mb-2">
+                Connect With Me
+              </h3>
               <p className="text-slate-400 text-sm">
-  Open to internships, freelance opportunities,
-  collaborations, and full-time development roles.
-</p></div>
+                Open to internships, freelance opportunities,
+                collaborations, and full-time development roles.
+              </p></div>
             <div className="flex gap-4 mt-3">
               <a
                 href="https://github.com/CodeBySamman"
@@ -114,7 +114,7 @@ export default function Footer() {
 
           {/* Back To Top */}
           <Link
-           href="/"
+            href="/"
             className="
               flex items-center gap-2
               bg-yellow-400
@@ -127,8 +127,8 @@ export default function Footer() {
             "
           >
             <FaArrowUp />
-          
-   Back Home
+
+            Back Home
           </Link>
 
         </div>
