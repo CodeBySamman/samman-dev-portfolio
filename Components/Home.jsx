@@ -38,7 +38,7 @@ const Home = () => {
           </a>
 
           <a
-            href="/projects/Resume_22_08_2026_05_05_08_PM.pdf"
+            href="/projects/Samman_Shaehzadi__Resume.docx"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto border border-slate-600 px-8 py-3 rounded-xl font-semibold hover:bg-slate-800 transition duration-300"
